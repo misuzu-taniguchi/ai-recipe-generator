@@ -1,4 +1,6 @@
-import { FormEvent, useState } from "react";
+// src/App.tsx 先頭の import を修正
+import { useState } from "react";
+import type { FormEvent } from "react";
 import { Loader, Placeholder } from "@aws-amplify/ui-react";
 import "./App.css";
 import { Amplify } from "aws-amplify";
